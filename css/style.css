@@ -454,15 +454,6 @@ pre {
 
 
 
-
-  .word {
-    font-size:8em;
-    font-weight:bold;
-    opacity:0;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-  }
   
   @keyframes w1anim {
     0%{
@@ -550,8 +541,10 @@ pre {
   }
 
   #spin {
-    color: yellow;
-    
+    padding: 10px; 
+    background-color: gray;
+    border-radius: 5px;
+    opacity: 50;
   }
   #spin:after {
     content:"";
@@ -566,9 +559,10 @@ pre {
     40% { content:"knowledge"; }
     50% { content: "logistics"; }
     60% { content: "military force"; }
-    70% { content: "?"; }
-    80% { content: "?"; }
-    90% { content: "?"; }
+    70% { content: "national power"; }
+    80% { content: "experience"; }
+    90% { content: "dream"; }
+    100% { content: "reality"; }
   }
 
 
@@ -8549,8 +8543,9 @@ strong {
     
   .logo-custom{
     position: relative;
-    height: 480px;
-    width: 720px;
+    margin-bottom: 50px;
+    height: 320px;
+    width: 480px;
   }
 
 .slider-text {
