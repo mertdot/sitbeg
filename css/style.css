@@ -61,7 +61,7 @@ body {
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
-
+  
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
@@ -8410,6 +8410,13 @@ strong {
     content: '';
     opacity: .5;
     background: #000; }
+
+    
+  .logo-custom{
+    position: relative;
+    height: 480px;
+    width: 720px;
+  }
 
 .slider-text {
   position: relative;
