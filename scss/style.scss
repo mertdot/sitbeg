@@ -6,7 +6,7 @@ $font-secondary: 'Noto Serif', serif;
 
 $white: #fff;
 $black: #000;
-$darken: #191a1c;
+$darken: #0055ff;
 $light: #9da1a5;
 $primary: #9d8f8f;
 
@@ -19,10 +19,10 @@ body {
 	font-size: 14px;
 	line-height: 1.8;
 	font-weight: 400;
-	color: #9da1a5;
+	color: #0b437c;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background: #191a1c;
+	background: #0055ff;
 	&.menu-show {
 		overflow: hidden;
 		position: fixed;
@@ -1030,6 +1030,7 @@ textarea.form-control {
 
 .ftco-bg-dark {
 	background: #191919;
+
 }
 
 .bg-primary{
