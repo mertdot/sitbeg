@@ -144,10 +144,23 @@
 
 
     .card-container {
-        width: 100px;
+        width: auto;
         display: flex;
         padding: 3rem;
+		overflow-x: hidden;
     }
+	@media (min-width: 576px) {
+    .card-container {
+      max-width: 540px; } }
+  @media (min-width: 768px) {
+    .card-container {
+      max-width: 720px; } }
+  @media (min-width: 992px) {
+    .card-container {
+      max-width: 960px; } }
+  @media (min-width: 1200px) {
+    .card-container {
+      max-width: 1140px; } }
 
     .card {
         min-width: 300px;
@@ -205,7 +218,7 @@
     }
 
     .card:not(:first-child) {
-        margin-left: -190px;
+        margin-left: -300px;
     }
 
     .card:hover {
@@ -320,8 +333,7 @@
 				<div class="container">
 					<div class="row justify-content-center mb-5 pb-3">
 			  <div class="col-md-4 heading-section ftco-animate">
-				<h2 class="mb-4">Projeler</h2>
-				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+				<h2 class="mb-4" style="text-align: center; font-size: 50px;" >Projeler</h2>
 			  </div>
 			</div>
 			<div class="row ftco-animate">
@@ -510,7 +522,7 @@
 				<div class="container">
 					<div class="row justify-content-center mb-5 pb-3">
 					<div class="col-md-4 heading-section text-center ftco-animate">
-					  <h1 style="font-size:23px; color: grey;"><B>Ekibimiz</B></h2>
+					  <h1 style="font-size:50px; color: grey;"><B>Ekibimiz</B></h2>
 					</div>
 				  </div>
 
@@ -844,16 +856,11 @@
             <h1 style="font-size:23px; color: grey;"><B>Bizimle İletişime Geç</B></h2>
           </div>
         </div>
-
         <div class="row mb-5">
           <div class="col-md-3 d-flex ftco-animate">
-          </div>
-          <div class="col-md-3 d-flex ftco-animate">
           	<div class="align-self-stretch box text-center p-4">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-phone2"></span>
-          		</div>
           		<div>
+					<span class="icon-phone"></span>
 	          		<h3 class="mb-4">İletişim Numarası</h3>
 		            <p><a href="tel://+905532854069">+90 553 285 4069</a></p>
 	            </div>
@@ -880,6 +887,16 @@
 	            </div>
 	          </div>
           </div>
+		  <div class="col-md-3 d-flex ftco-animate">
+			<div class="align-self-stretch box text-center p-4">
+				<div class="icon d-flex align-items-center justify-content-center">
+					<span class="icon-github"></span>
+				</div>
+				<div>
+					<a href="https://github.com/Sitbeg/Sitbeg" class="mb-4">Github</a>
+			  </div>
+			</div>
+		</div>
         </div>
       </div>
     </section>
